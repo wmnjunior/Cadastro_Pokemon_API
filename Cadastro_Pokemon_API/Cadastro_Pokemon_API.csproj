@@ -215,6 +215,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="JSON\Json.txt" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -226,6 +227,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="BackUp_BD\Cadastro_Pokemon_API.backup" />
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />

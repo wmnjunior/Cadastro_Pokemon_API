@@ -1,0 +1,74 @@
+
+==inserir Pokemon== POST http://localhost:51130/api/pokemon/AdicionarPokemon
+
+{
+
+{
+    "name": "Bulbasaur",
+    "imagem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    "abilitys": [
+        {
+            "ability": "Crescimento"
+        },
+			 {
+            "ability": "Clorofila"
+        }
+    ],
+    "status": [
+        {
+            "status": "HP",
+            "valor_status": 45
+        },
+			{
+            "status": "Attack",
+            "valor_status": 49
+        },
+			{
+            "status": "Defence",
+            "valor_status": 49
+        },
+			{
+            "status": "Sp Atk",
+            "valor_status": 65
+        },
+			{
+            "status": "Sp Def",
+            "valor_status": 65
+        },
+			{
+            "status": "Speed",
+            "valor_status": 45
+        }
+    ],
+    "moves": [
+        {
+            "valor_moves": "Sweet Scent"
+        },
+			 {
+            "valor_moves": "Seed Bomb"
+        },
+			{
+            "valor_moves": "Vine Whip"
+        },
+			{
+            "valor_moves": "Growth"
+        }
+    ]
+}
+
+
+=====Busca filtro por numero pokemon POST- http://localhost:51130/api/pokemon/BuscarPorFiltros
+{
+{
+"num_pokemon": numeroPokemon
+}
+=====Buscar filtro por nome POST - http://localhost:51130/api/pokemon/BuscarPorFiltros
+{
+"name": "nomepokemon"
+}
+=====Exibir Pokemon por ID POST - http://localhost:51130/api/pokemon/ExibirPokemon
+num_id
+
+
+
+
