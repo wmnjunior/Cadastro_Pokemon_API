@@ -225,7 +225,9 @@
     </Content>
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="BackUp_BD\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="BackUp_BD\Cadastro_Pokemon_API.zip" />
     <None Include="packages.config" />
