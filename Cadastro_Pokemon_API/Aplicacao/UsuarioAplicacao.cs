@@ -114,7 +114,6 @@ namespace Cadastro_Pokemon_API.Aplicacao
             }
 
         }
-
         //método para exibir todos os usuarios
         public List<Usuarios> ExibirTodos()
         {
@@ -132,7 +131,6 @@ namespace Cadastro_Pokemon_API.Aplicacao
                 return ctx.Usuarios.Find(id);
             }
         }
-
         public List<Usuarios> BuscarNome(Usuarios usuario)
         {
             using (Repositorio ctx = new Repositorio())
