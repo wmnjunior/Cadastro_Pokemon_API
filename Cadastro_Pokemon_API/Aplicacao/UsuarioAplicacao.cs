@@ -115,7 +115,7 @@ namespace Cadastro_Pokemon_API.Aplicacao
 
         }
 
-        //método para exibir todos os usuarios
+        //método para exibir todos os usuarios 
         public List<Usuarios> ExibirTodos()
         {
 

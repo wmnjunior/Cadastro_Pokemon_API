@@ -11,7 +11,6 @@ namespace Cadastro_Pokemon_API.Aplicacao
 {
     public class PokemonAplicacao
     {
-
         public bool AdicionarPokemon(Pokemon pokemonRecedido)
         {
             using (var ctx = new Repositorio())
@@ -89,7 +88,6 @@ namespace Cadastro_Pokemon_API.Aplicacao
                     .Include(x => x.Status)
                     .Include(x => x.Moves)
                     .Where(x => x.id == IdPokemon).FirstOrDefault();
-
             }
         }
         //Busca Pokemon por filtro, PredicateBuilder
@@ -105,7 +103,6 @@ namespace Cadastro_Pokemon_API.Aplicacao
                 {   //consulta dentro do banco
                     query.And((x => x.name.ToLower().Contains(pokemonRecedido.name
                         .Trim().ToLower())));
-
                 }
                 if (pokemonRecedido.num_pokemon > 0)
                 {
@@ -115,10 +112,10 @@ namespace Cadastro_Pokemon_API.Aplicacao
                 return ctx.Pokemons.Include(x => x.Abilitys)
                     .Include(x => x.Status)
                     .Include(x => x.Moves).Where(query).ToList();
-
             }
 
         }
+
 
     }
 }
