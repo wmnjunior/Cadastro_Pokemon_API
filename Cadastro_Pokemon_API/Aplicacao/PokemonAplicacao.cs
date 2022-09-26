@@ -116,6 +116,5 @@ namespace Cadastro_Pokemon_API.Aplicacao
 
         }
 
-
     }
 }
