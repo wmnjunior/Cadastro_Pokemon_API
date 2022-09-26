@@ -113,7 +113,6 @@ namespace Cadastro_Pokemon_API.Aplicacao
                     .Include(x => x.Status)
                     .Include(x => x.Moves).Where(query).ToList();
             }
-
         }
 
     }
