@@ -76,6 +76,7 @@ namespace Cadastro_Pokemon_API.Aplicacao
             {
                 if (usuarioRecebido.id > 0)
                 {
+                    //Pega Do Banco de dados para comparar
                     Usuarios _usuarios = ctx.Usuarios.Find(usuarioRecebido.id);
 
                     if (_usuarios == null)
