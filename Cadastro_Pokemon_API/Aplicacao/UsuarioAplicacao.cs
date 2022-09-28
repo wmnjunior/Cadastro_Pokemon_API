@@ -140,7 +140,6 @@ namespace Cadastro_Pokemon_API.Aplicacao
                         .Trim().ToLower())).ToList();
             }
         }
-
         public List<Usuarios> BuscarEmail(Usuarios usuario)
         {
             using (Repositorio ctx = new Repositorio())
