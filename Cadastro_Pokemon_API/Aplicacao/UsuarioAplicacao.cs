@@ -94,7 +94,6 @@ namespace Cadastro_Pokemon_API.Aplicacao
 
             }
 
-
         }
         //método para alterar os dados de um usuario
         public bool AlterarSalarioTodos(Usuarios usuarioRecebido)
