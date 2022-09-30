@@ -93,7 +93,6 @@ namespace Cadastro_Pokemon_API.Aplicacao
         //Busca Pokemon por filtro, PredicateBuilder
         public List<Pokemon> BuscarPorFiltros(Pokemon pokemonRecedido)
         {
-
             using (Repositorio ctx = new Repositorio())
             {
                 //tem que ser chamado toda vez que usa link
@@ -108,7 +107,6 @@ namespace Cadastro_Pokemon_API.Aplicacao
                 {
                     query.And(x => x.num_pokemon == pokemonRecedido.num_pokemon);
                 }
-
                 return ctx.Pokemons.Include(x => x.Abilitys)
                     .Include(x => x.Status)
                     .Include(x => x.Moves).Where(query).ToList();
