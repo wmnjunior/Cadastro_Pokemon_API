@@ -82,7 +82,6 @@ namespace Cadastro_Pokemon_API.Aplicacao
                     if (_usuarios == null)
                         throw new Exception(Id_Invalida);
 
-
                     _usuarios.nome = usuarioRecebido.nome;
                     _usuarios.email = usuarioRecebido.email;
                     _usuarios.sexo = usuarioRecebido.sexo;
