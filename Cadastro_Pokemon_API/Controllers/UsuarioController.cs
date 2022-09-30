@@ -13,7 +13,7 @@ namespace Cadastro_Pokemon_API.Controllers
 
     public class UsuarioController : ApiController
     {
-        //variavel estatica, para não resetar os dados quando nós fizermos as rotas
+        //variavel estatica, para não resetar os dados quando nós fizermos as rotasq1
         static private readonly UsuarioAplicacao usuarioAplicacao = new UsuarioAplicacao();
 
         //rota para adicionar um novo usuário, recebe um usuario serializado em JSON
