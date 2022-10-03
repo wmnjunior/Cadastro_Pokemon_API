@@ -147,7 +147,6 @@ namespace Cadastro_Pokemon_API.Controllers
                 var usuarioRetornar = usuarioAplicacao.BuscarNome(idUsuario);
                 if (usuarioRetornar != null)
                 {
-
                     //caso o usuário exista, ele transforma o usuário em um documento json e o retorna
                     var usuarioSerializado = JsonConvert.SerializeObject(usuarioRetornar);
                     return Ok(usuarioSerializado);
