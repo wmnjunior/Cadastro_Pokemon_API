@@ -2,7 +2,7 @@
 
 ## BD Info
 
-Banco de dados usado no projeto PostgreSQl. Ver. 14
+Banco de dados usado no projeto PostgreSQl. Ver. 14. 
 O Back-Up do banco se encontra na Pasta do Projeto "Backup_BD"
 
 
